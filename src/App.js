@@ -6,17 +6,19 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
+      <ParentComponent></ParentComponent>
+      {/* <Counter></Counter> */}
       {/* <Message></Message> */}
-      <Hello></Hello>
+      {/* <Hello></Hello>
       <Greet name="Ed" age="61"></Greet>
       <Greet name="Bobi" age="62"></Greet>
       <Greet name="Ben" age="21"></Greet>
-      <Welcome></Welcome>
+      <Welcome></Welcome> */}
     </div>
   );
 }
